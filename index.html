@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+         <div class="mainform">
+                <div class="hdiv">
+                    <h1 class="heading">Register</h1>
+                </div>
+
+                <div class="udiv">
+                    <div class="uname">UserName: </div>
+                    <div class="utext usuccess"><input type="text" class="firstname box"></div>
+                    <div class="alert_name alert">Please Enter Your User Name</div>
+                    <div class="proper_name alert">Please Provide Proper Name</div>
+                </div>
+
+                <div class="ediv">
+                    <div class="ename">Email:</div>
+                    <div class="etext esuccess"><input type="email" class="email box"></div>
+                    <div class="alert_email alert">Please Enter Your Email</div>
+                    <div class="proper_email alert">Please Provide valid email</div>
+                    <div class="v_email alert">Enter Valid Email Address</div>
+                </div>
+
+                <div class="pdiv">
+                    <div class="pname">New Password:</div>
+                    <div class="ptext  psuccess"><input type="password" class="passwd box"></div>
+                    <div class="alert_pwd alert">Please Enter Your New Password</div>
+                    <div class="p_length alert">Password should be at least 9 characters</div>
+                    <div class="ul_case alert">Password should contain both uppercase and lowercase letters</div>
+                    <div class="a_digit alert">Password should contain at least one digit</div>
+                    <div class="s_char alert">Password should contain at least one special character</div>
+                </div>
+
+                <div class="cdiv">
+                    <div class="cname">Confirm Password:</div>
+                    <div class="ctext csuccess"><input type="password" class="confirmpwd box"></div>
+                    <div class="alert_cpwd alert">Please Enter Your Confirm Password</div>
+                    <div class="alert_inpwd alert">Incorrect Password</div>
+                </div>
+
+                <div class="bdiv">
+                    <button class="btn">Submit</button>
+                </div>
+
+                <div class="reg_success alert">Registration Successfull !!!</div>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
